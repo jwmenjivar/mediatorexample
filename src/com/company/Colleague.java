@@ -10,13 +10,14 @@ public class Colleague {
     }
 
     public void saleOffer(String stock, int shares){
-        mediator.saleOffer(stock, shares, this.colleagueCode)
+        mediator.saleOffer(stock, shares, this.colleagueCode);
     }
 
     public void buyOffer(String stock, int shares){
-        mediator.buyOffer(stock, shares, this.colleagueCode)
+        mediator.buyOffer(stock, shares, this.colleagueCode);
     }
 
     public void setCollCode(int collCode){
         this.colleagueCode = collCode;
+    }
 }
